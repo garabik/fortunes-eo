@@ -1,0 +1,26 @@
+fortunes-eo por Debian
+----------------------
+
+Ĉar mi ŝatas unikodon, kaj mi preferus ke la linuksa mondo uzu
+UTF-8 kiel defaŭlta kodo (tio tre simpligus inter-ligvan kaj plur-lingvan
+komunikadon, kaj aferon kun lokaĵaroj), la ĉefa pakaĵo (fortune-eo)
+estas en UTF-8 kodo, kaj mi supozas ke vi uzas unikodan esperantan lokaĵaron,
+en unikoda konzolo.
+
+Por tiuj malfeliĉaj homoj, kiuj ne povas (aŭ volas) uzi unikodon,
+mi preparis du aliajn pakaĵojn, fortunes-eo-ascii kaj fortunes-eo-iso3.
+
+
+Uzu:
+ $ fortune eo
+por mesaĝoj en UTF-8 kodo (en pakaĵo fortunes-eo),
+
+ $ fortune eo-ascii
+por ASCII (post-x metodo) (en pakaĵo fortunes-eo-ascii)
+kaj 
+
+ $ fortune eo-iso3
+por ISO-8859-3 kodo (en pakaĵo fortunes-eo-iso3)
+
+
+ -- Radovan Garabík <garabik@melkor.dnp.fmph.uniba.sk>, Mardo, 30 Julio 2002 09:53:21 +0200

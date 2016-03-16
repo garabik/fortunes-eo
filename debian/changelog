@@ -1,0 +1,38 @@
+fortunes-eo (20020729-5) unstable; urgency=medium
+
+  * Add debian/compat version 9 (closes: #817459,#817331)
+
+ -- Radovan Garabík <garabik@kassiopeia.juls.savba.sk>  Wed, 16 Mar 2016 10:35:52 +0100
+
+fortunes-eo (20020729-4) unstable; urgency=low
+
+  * added *.u8 link to UTF-8 files (closes: #237189)
+  * upgrade debconf version
+  * reword copyright file
+  * change my e-mail
+  * reformat Descriptions (fixes lintian warnings)
+
+ -- Radovan Garabík <garabik@kassiopeia.juls.savba.sk>  Mon, 29 Aug 2005 18:21:26 +0200
+
+fortunes-eo (20020729-3) unstable; urgency=low
+
+  * recompiled in POSIX locale to evade mangling of UTF-8 characters in
+    Description 
+
+ -- Radovan Garabik <garabik@melkor.dnp.fmph.uniba.sk>  Thu, 12 Dec 2002 13:51:33 +0100
+
+fortunes-eo (20020729-2) unstable; urgency=low
+
+  * added fortune-mod to Build-depends (closes: #162444)
+
+ -- Radovan Garabik <garabik@melkor.dnp.fmph.uniba.sk>  Thu, 26 Sep 2002 16:10:55 +0200
+
+fortunes-eo (20020729-1) unstable; urgency=low
+
+  * Komenca eldono.
+
+ -- Radovan Garabik <garabik@melkor.dnp.fmph.uniba.sk>  Tue, 30 Jul 2002 09:53:21 +0200
+
+Local variables:
+mode: debian-changelog
+End:
