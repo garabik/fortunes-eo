@@ -6,25 +6,6 @@
 #export DH_VERBOSE=1
 
 
-
-configure: configure-stamp
-configure-stamp:
-	dh_testdir
-	# Add here commands to configure the package.
-	
-
-	touch configure-stamp
-
-build: configure-stamp build-stamp
-build-stamp:
-	dh_testdir
-
-	# Add here commands to compile the package.
-	#$(MAKE)
-	#/usr/bin/docbook-to-man debian/fortunes-eo.sgml > fortunes-eo.1
-
-	touch build-stamp
-
 clean: 
 	dh_testdir
 	dh_testroot
@@ -56,8 +37,20 @@ install: build
 	cat KOPIADO | konwert UTF8-ascii > KOPIADO.ascii
 	cat KOPIADO | konwert UTF8-iso3 > KOPIADO.iso3        
 
+
+build: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
+build-stamp:
+	# nothing to do
+
+
+# Build architecture-dependent files here.
+binary-arch: install
+# We have nothing to do by default.
+
 # Build architecture-independent files here.
-binary-arch: build install
+binary-arch: install
 # We have nothing to do by default.
 
 # Build architecture-dependent files here.
