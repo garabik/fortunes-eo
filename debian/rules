@@ -5,6 +5,8 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+
+
 configure: configure-stamp
 configure-stamp:
 	dh_testdir
@@ -23,16 +25,11 @@ build-stamp:
 
 	touch build-stamp
 
-clean:
+clean: 
 	dh_testdir
 	dh_testroot
-	rm -f build-stamp configure-stamp
-
-	# Add here commands to clean up after the build process.
-	#-$(MAKE) clean
 	rm -fv *.ascii *.iso3 debian/*.ascii debian/*.iso3 *.u8
-
-	dh_clean
+	dh_clean 
 
 install: build
 	dh_testdir
