@@ -3,7 +3,7 @@ Section: games
 Priority: optional
 Maintainer: Radovan Garabík <garabik@kassiopeia.juls.savba.sk>
 Build-Depends: debhelper (>= 9), konwert, fortune-mod
-Standards-Version: 3.6.2
+Standards-Version: 3.9.6
 
 Package: fortunes-eo
 Architecture: all
@@ -29,7 +29,7 @@ Description: Collection of esperanto fortunes (ascii encoding).
  Database with esperanto fortune cookies.
  Contains messages from Proverbaro Esperanta by Zamenhof,
  in ASCII (post-x) encoding.
-     
+
 Package: fortunes-eo-iso3
 Architecture: all
 Provides: fortune-cookie-db
