@@ -1,6 +1,7 @@
-fortunes-eo (20020729-5) unstable; urgency=medium
+fortunes-eo (20020729-5) unstable; urgency=low
 
-  * Add debian/compat version 9 (closes: #817459,#817331)
+  * add debian/compat version 9 (closes: #817459,#817331)
+  * clarify copyright
 
  -- Radovan Garabík <garabik@kassiopeia.juls.savba.sk>  Wed, 16 Mar 2016 10:35:52 +0100
 
@@ -17,7 +18,7 @@ fortunes-eo (20020729-4) unstable; urgency=low
 fortunes-eo (20020729-3) unstable; urgency=low
 
   * recompiled in POSIX locale to evade mangling of UTF-8 characters in
-    Description 
+    Description
 
  -- Radovan Garabik <garabik@melkor.dnp.fmph.uniba.sk>  Thu, 12 Dec 2002 13:51:33 +0100
 
