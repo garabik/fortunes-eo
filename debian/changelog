@@ -3,7 +3,7 @@ fortunes-eo (20020729b-1) unstable; urgency=low
   * add debian/compat version 9 (closes: #817459,#817331)
   * clarify copyright
 
- -- Radovan Garabík <garabik@kassiopeia.juls.savba.sk>  Wed, 16 Mar 2016 10:35:52 +0100
+ -- Radovan Garabík <garabik@kassiopeia.juls.savba.sk>  Mon, 11 Apr 2016 15:05:52 +0100
 
 fortunes-eo (20020729-4) unstable; urgency=low
 
