@@ -1,4 +1,4 @@
-fortunes-eo (20020729-5) unstable; urgency=low
+fortunes-eo (20020729b-1) unstable; urgency=low
 
   * add debian/compat version 9 (closes: #817459,#817331)
   * clarify copyright
