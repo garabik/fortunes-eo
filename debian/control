@@ -2,7 +2,7 @@ Source: fortunes-eo
 Section: games
 Priority: optional
 Maintainer: Radovan Garabík <garabik@kassiopeia.juls.savba.sk>
-Build-Depends: debhelper (>= 9), konwert, fortune-mod
+Build-Depends: debhelper (>= 9), fortune-mod
 Standards-Version: 3.9.6
 
 Package: fortunes-eo
@@ -14,32 +14,6 @@ Description: Collection of esperanto fortunes.
  Enhavas mesaĝojn el Proverbaro Esperanta de Zamenhof, en UTF-8 kodo.
  .
  Database with esperanto fortune cookies.
- Contains messages from Proverbaro Esperanta by Zamenhof, in 
+ Contains messages from Proverbaro Esperanta by Zamenhof, in
  UTF-8 encoding.
-
-Package: fortunes-eo-ascii
-Architecture: all
-Provides: fortune-cookie-db
-Depends: fortune-mod (>= 9708-31), ${misc:Depends}
-Description: Collection of esperanto fortunes (ascii encoding).
- Datumbazo kun esperantlingvaj mesagxoj por la fortune programo.
- Enhavas mesagxojn el Proverbaro Esperanta de Zamenhof,
- en ASCII (post-x) kodo.
- .
- Database with esperanto fortune cookies.
- Contains messages from Proverbaro Esperanta by Zamenhof,
- in ASCII (post-x) encoding.
-
-Package: fortunes-eo-iso3
-Architecture: all
-Provides: fortune-cookie-db
-Depends: fortune-mod (>= 9708-31), ${misc:Depends}
-Description: Collection of esperanto fortunes (ISO3 encoding).
- Datumbazo kun esperantlingvaj mesagxoj por la fortune programo.
- Enhavas mesagxojn el Proverbaro Esperanta de Zamenhof,
- en ISO-8859-3 kodo.
- .
- Database with esperanto fortune cookies.
- Contains messages from Proverbaro Esperanta by Zamenhof,
- in ISO-8859-3 encoding.
 
