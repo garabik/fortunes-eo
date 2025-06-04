@@ -9,7 +9,8 @@
 clean: 
 	dh_testdir
 	dh_testroot
-	rm -fv *.ascii *.iso3 debian/*.ascii debian/*.iso3 *.u8
+#	rm -fv *.ascii *.iso3 debian/*.ascii debian/*.iso3 
+	rm -fv *.u8
 	dh_clean 
 
 install: build
@@ -26,16 +27,16 @@ install: build
 	(cd $(CURDIR)/debian/fortunes-eo/usr/share/games/fortunes/eo/; ln -s proverbaro proverbaro.u8)
 
 
-	cat proverbaro | konwert utf8-ascii > $(CURDIR)/debian/fortunes-eo-ascii/usr/share/games/fortunes/eo-ascii/proverbaro
-	(cd $(CURDIR)/debian/fortunes-eo-ascii/usr/share/games/fortunes/eo-ascii/; strfile proverbaro)
+#	cat proverbaro | konwert utf8-ascii > $(CURDIR)/debian/fortunes-eo-ascii/usr/share/games/fortunes/eo-ascii/proverbaro
+#	(cd $(CURDIR)/debian/fortunes-eo-ascii/usr/share/games/fortunes/eo-ascii/; strfile proverbaro)
 
-	cat proverbaro |konwert utf8-iso3 > $(CURDIR)/debian/fortunes-eo-iso3/usr/share/games/fortunes/eo-iso3/proverbaro
-	(cd $(CURDIR)/debian/fortunes-eo-iso3/usr/share/games/fortunes/eo-iso3/; strfile proverbaro)
+#	cat proverbaro |konwert utf8-iso3 > $(CURDIR)/debian/fortunes-eo-iso3/usr/share/games/fortunes/eo-iso3/proverbaro
+#	(cd $(CURDIR)/debian/fortunes-eo-iso3/usr/share/games/fortunes/eo-iso3/; strfile proverbaro)
 
-	cat debian/README.Debian | konwert UTF8-ascii > debian/README.Debian.ascii
-	cat debian/README.Debian | konwert UTF8-iso3 > debian/README.Debian.iso3
-	cat KOPIADO | konwert UTF8-ascii > KOPIADO.ascii
-	cat KOPIADO | konwert UTF8-iso3 > KOPIADO.iso3        
+#	cat debian/README.Debian | konwert UTF8-ascii > debian/README.Debian.ascii
+#	cat debian/README.Debian | konwert UTF8-iso3 > debian/README.Debian.iso3
+#	cat KOPIADO | konwert UTF8-ascii > KOPIADO.ascii
+#	cat KOPIADO | konwert UTF8-iso3 > KOPIADO.iso3        
 
 
 build: build-arch build-indep
