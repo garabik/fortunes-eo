@@ -7,20 +7,19 @@ komunikadon, kaj aferon kun lokaĵaroj), la ĉefa pakaĵo (fortune-eo)
 estas en UTF-8 kodo, kaj mi supozas ke vi uzas unikodan esperantan lokaĵaron,
 en unikoda konzolo.
 
-Por tiuj malfeliĉaj homoj, kiuj ne povas (aŭ volas) uzi unikodon,
-mi preparis du aliajn pakaĵojn, fortunes-eo-ascii kaj fortunes-eo-iso3.
+Antaŭe, mi havis du aliajn pakaĵojn por tiuj malfeliĉaj homoj, kiuj ne povas
+(aŭ volas) uzi unikodon, mi preparis du aliajn pakaĵojn, unu en ASCII
+(x-metodo) kaj unu en ISO-8859-3.
 
+Sed finfine, en 2025, mi pensas ke UTF-8 finvenkis, kaj kun la nova pakaĵo, mi
+ĉesis krei la aliajn pakaĵojn.
+
+La proverbaro estas nun cenzurata - la 19a-jarcenta teksto havas kelkajn
+malĝentilegajn kaj rasismajn proverboj, aŭ simple ofendaj (al virinoj, sklavoj,
+hundoj ktp.). Tio tute ne taŭgas bone al nia rafinita ĝentila 21a-jarcenta
+vivo.
 
 Uzu:
  $ fortune eo
-por mesaĝoj en UTF-8 kodo (en pakaĵo fortunes-eo),
 
- $ fortune eo-ascii
-por ASCII (post-x metodo) (en pakaĵo fortunes-eo-ascii)
-kaj 
-
- $ fortune eo-iso3
-por ISO-8859-3 kodo (en pakaĵo fortunes-eo-iso3)
-
-
- -- Radovan Garabík <garabik@melkor.dnp.fmph.uniba.sk>, Mardo, 30 Julio 2002 09:53:21 +0200
+ -- Radovan Garabík <garabik @ kassiopeia.juls.savba.sk>, Merkredo, 4a Junio 2025 15:03:57 +0200

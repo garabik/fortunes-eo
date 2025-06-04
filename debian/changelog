@@ -1,3 +1,31 @@
+fortunes-eo (20250523-0.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream version with potentially offending quotes removed
+    Closes: #1106254
+  * d/copyright: DEP5
+
+ -- Andreas Tille <tille@debian.org>  Fri, 23 May 2025 13:40:58 +0200
+
+fortunes-eo (20020729b-1.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Removing offensive cookie meaning
+      "A woman knows — The whole world knows".
+    Closes: #870347
+  * Removing offensive cookie meaning
+      "Wash for a whole year, a negro won't become white"
+    Closes: #916270
+
+ -- Andreas Tille <tille@debian.org>  Thu, 22 May 2025 11:54:19 +0200
+
+fortunes-eo (20020729b-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Sun, 03 Jan 2021 19:57:48 +0100
+
 fortunes-eo (20020729b-1) unstable; urgency=low
 
   * add debian/compat version 9 (closes: #817459,#817331)
